@@ -189,31 +189,31 @@ public class MissingNumber {
         int[] arr1 = { 3, 0, 1 };
         int missing1 = findMissingByXor(arr1);
         System.out.println("Example 1: Find missing in " + arrayToString(arr1));
-        System.out.println("Missing number: " + missing1 + " ✓\n");
+        System.out.println("Missing number: " + missing1 + " [PASS]\n");
 
         // Example 2: Array with 0 at end
         int[] arr2 = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
         int missing2 = findMissingByMath(arr2);
         System.out.println("Example 2: Find missing in " + arrayToString(arr2));
-        System.out.println("Missing number: " + missing2 + " ✓\n");
+        System.out.println("Missing number: " + missing2 + " [PASS]\n");
 
         // Example 3: Single element array
         int[] arr3 = { 1 };
         int missing3 = findMissingByXor(arr3);
         System.out.println("Example 3: Find missing in " + arrayToString(arr3));
-        System.out.println("Missing number: " + missing3 + " ✓\n");
+        System.out.println("Missing number: " + missing3 + " [PASS]\n");
 
         // Example 4: Missing at beginning
         int[] arr4 = { 1, 2, 3, 4, 5 };
         int missing4 = findMissingByHashSet(arr4);
         System.out.println("Example 4: Find missing in " + arrayToString(arr4));
-        System.out.println("Missing number: " + missing4 + " ✓\n");
+        System.out.println("Missing number: " + missing4 + " [PASS]\n");
 
         // Example 5: Large array
         int[] arr5 = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15 }; // Missing: 13
         int missing5 = findMissingByMath(arr5);
         System.out.println("Example 5: Find missing in large array (0-15, missing 13)");
-        System.out.println("Missing number: " + missing5 + " ✓\n");
+        System.out.println("Missing number: " + missing5 + " [PASS]\n");
 
         // Algorithm comparison
         System.out.println("========== Algorithm Comparison ==========");
