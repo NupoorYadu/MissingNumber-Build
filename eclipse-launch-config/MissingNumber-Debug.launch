@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.remoteJavaApplication">
+    <stringAttribute name="org.eclipse.debug.core.source_locator_id" value="org.eclipse.jdt.launching.sourceLocator.JavaSourceLocator"/>
+    <stringAttribute name="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;sourceLookupDirector&gt;&#10;&lt;sourceContainers duplicateId=&quot;org.eclipse.jdt.launching.source_path_provider&quot;/&gt;&#10;&lt;/sourceLookupDirector&gt;&#10;"/>
+    <listAttribute name="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/missing-number"/>
+    </listAttribute>
+    <listAttribute name="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <booleanAttribute name="org.eclipse.jdt.launching.ALLOW_TERMINATE" value="true"/>
+    <mapAttribute name="org.eclipse.jdt.launching.CONNECT_MAP">
+        <mapEntry key="hostname" value="localhost"/>
+        <mapEntry key="port" value="5005"/>
+    </mapAttribute>
+    <stringAttribute name="org.eclipse.jdt.launching.CONNECTION_TYPE" value="socket"/>
+    <stringAttribute name="org.eclipse.jdt.launching.PROJECT_ATTR" value="missing-number"/>
+    <stringAttribute name="org.eclipse.jdt.launching.VM_CONNECTOR_ID" value="org.eclipse.jdt.launching.socketAttachConnector"/>
+</launchConfiguration>
